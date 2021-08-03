@@ -1,0 +1,41 @@
+*{
+    padding: 20px;
+}
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+header{background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  linear-gradient(135deg, #45a8f7 25%, transparent 25%), linear-gradient(225deg, #45a8f7 25%, transparent 25%), linear-gradient(45deg, #45a8f7 25%, transparent 25%), linear-gradient(315deg, #45a8f7 25%, #e5e5f7 25%);
+background-position:  10px 0, 10px 0, 0 0, 0 0;
+background-size: 10px 10px;
+background-repeat: repeat;
+display: grid;
+    grid-template-columns: 3fr 9fr;}
+
+@media screen and (max-width: 600px) {
+    header {
+        display:block;
+        background-color: yellowgreen;
+    }
+}
+
+/* {background-color:dodgerblue; border: black; border-style:solid ; */
+
+nav{background-color: darkseagreen;}
+
+main{background-color: dodgerblue;}
+
+article{background-color: gainsboro;}
+
+section{background-color: gray;}
+
+aside{background-color: floralwhite;}
+
+footer{background-color: gray;}
+
